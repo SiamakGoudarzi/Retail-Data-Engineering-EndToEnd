@@ -10,6 +10,13 @@ Select Language: [English](#english) | [Deutsch](#deutsch)
 ### Project Scope
 This project implements a complete data pipeline, migrating transactional records from an operational system into a Star Schema Data Warehouse. The solution focuses on data consistency, historical tracking via SCD Type 2, and advanced analytical reporting using SQL Server and Python.
 
+#### Data Models
+**OLTP ER Diagram**
+![OLTP ER Diagram](documentation/images/ER_Diagram_OLTP.png)
+
+**DWH Star Schema**
+![DWH Star Schema](documentation/images/Star_Schema_DWH.png)
+
 ### Technical Stack
 * **Database:** SQL Server (OLTP & DWH)
 * **ETL Engine:** Python (Pandas, PyODBC)
@@ -19,6 +26,7 @@ This project implements a complete data pipeline, migrating transactional record
 * `sql_scripts/`: SQL definitions for schemas and business intelligence queries.
 * `python_etl/`: ETL logic for data migration and DWH transformation.
 * `documentation/`: ER diagrams, Star Schema models, and the Product Mapping logic.
+* `documentation/images/`: Visual architecture and schema diagrams.
 
 ### Step-by-Step Execution Guide
 
@@ -45,6 +53,13 @@ This project implements a complete data pipeline, migrating transactional record
 ### Projektumfang
 Implementierung einer vollständigen Daten-Pipeline zur Überführung transaktionaler Daten in ein Star Schema Data Warehouse. Der Fokus liegt auf Datenkonsistenz, Historisierung mittels SCD Typ 2 und Business-Reporting unter Einsatz von SQL Server und Python.
 
+#### Datenmodelle
+**OLTP ER-Diagramm**
+![OLTP ER-Diagramm](documentation/images/ER_Diagram_OLTP.png)
+
+**DWH Sternschema**
+![DWH Sternschema](documentation/images/Star_Schema_DWH.png)
+
 ### Technologie-Stack
 * **Datenbank:** SQL Server (OLTP & DWH)
 * **ETL-Engine:** Python (Pandas, PyODBC)
@@ -54,6 +69,7 @@ Implementierung einer vollständigen Daten-Pipeline zur Überführung transaktio
 * `sql_scripts/`: SQL-Skripte für Datenbank-Schemata und BI-Abfragen.
 * `python_etl/`: ETL-Skripte für den Datentransfer und die DWH-Transformation.
 * `documentation/`: ER-Diagramme, Star-Schema-Modelle und die Excel-Mapping-Tabelle.
+* `documentation/images/`: Architektur-Visualisierungen und Schemadiagramme.
 
 ### Schritt-für-Schritt-Anleitung zur Ausführung
 
@@ -77,4 +93,4 @@ Implementierung einer vollständigen Daten-Pipeline zur Überführung transaktio
 ### Prerequisites / Voraussetzungen
 * Microsoft SQL Server & SSMS
 * Python 3.x
-* Online Retail Dataset (Kaggle)
+* Online Retail Dataset
