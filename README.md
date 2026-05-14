@@ -1,4 +1,4 @@
-# Retail Data Warehouse & End-to-End BI Solution
+# Retail Data Warehouse & End-to-End BI Solution 
 
 Select Language: [English](#english) | [Deutsch](#deutsch)
 
