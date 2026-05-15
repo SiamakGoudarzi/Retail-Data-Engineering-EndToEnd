@@ -20,7 +20,7 @@ This project implements a complete data pipeline, migrating transactional record
 ### Technical Stack
 * **Database:** SQL Server (OLTP & DWH)
 * **ETL Engine:** Python (Pandas, PyODBC)
-* **Key Features:** SCD Type 2 implementation, Persisted Computed Columns, and Keyword-based Categorization.
+* **Key Features:** SCD Type 1 & 2 implementation, Persisted Computed Columns, and Keyword-based Categorization.
 
 ### Repository Structure
 * `sql_scripts/`: SQL definitions for schemas and business intelligence queries.
